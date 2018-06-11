@@ -25,7 +25,7 @@ exec(open('C:\_temp/qgis_basemaps_jp.py',encoding='utf-8').read())
 # Sources
 sources = []
 sources.append(["connections-xyz","MIERUNE_Color", "", "", "Maptiles by MIERUNE, under CC BY. Data by OpenStreetMap contributors, under ODbL.","https://tile.mierune.co.jp/mierune/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "15", "0"])
-sources.append(["connections-xyz","MIERUNE_BW", "", "", "Maptiles by MIERUNE, under CC BY. Data by OpenStreetMap contributors, under ODbL.","https://tile.mierune.co.jp/mierune_mono/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "15", "0"])
+sources.append(["connections-xyz","MIERUNE_MONO", "", "", "Maptiles by MIERUNE, under CC BY. Data by OpenStreetMap contributors, under ODbL.","https://tile.mierune.co.jp/mierune_mono/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "15", "0"])
 sources.append(["connections-xyz","OpenStreetMap", "", "", "OpenStreetMap contributors","http://tile.openstreetmap.org/%7Bz%7D/%7Bx%7D/%7By%7D.png", "", "19", "0"])
 sources.append(["connections-xyz","日本CS立体図（5mメッシュあり）", "", "", "国土地理院（承認番号　平29情使、第77号）","http://kouapp.main.jp/csmap/tile/japan/%7Bz%7D/%7Bx%7D/%7By%7D.jpg", "", "15", "5"])
 sources.append(["connections-xyz","北海道CS立体図(10mメッシュのみ）", "", "", "国土地理院（承認番号　平28情使、第830号）","http://kouapp.main.jp/csmap/tile/hokkaido/%7Bz%7D/%7Bx%7D/%7By%7D.jpg", "", "15", "7"])
