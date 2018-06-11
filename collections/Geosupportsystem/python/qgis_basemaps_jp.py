@@ -13,6 +13,12 @@ Sources from https://qms.nextgis.com/
 Licence GPL-3
 
 change any source by Yfuruchin / MIERUNE
+
+日本語環境で実行する場合は、C:_tempなどに保存後
+QGIS3のPythonコンソールで
+exec(open('C:\_temp/qgis_basemaps_jp.py',encoding='utf-8').read())
+を実行する
+
 """
 
 
